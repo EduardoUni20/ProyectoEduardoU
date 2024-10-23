@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car.Comida 👨‍🍳</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./imagenes/iconChef.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styletable.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item nav_item--logo">
+                    <a href="index.html" class="nav__link link">
+                        <img src="/Imagenes/iconChef.svg" alt="Logo" class="nav__image" />
+                        <p class="nav__text nav__text--logo">
+                            <span class="nav__span-carrito">Carrito</span>
+                            <span class="nav__span-comida">Comida</span>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="tabla.html" class="nav__link link">Tablas</a>
+                </li>
+                <li class="nav__item">
+                    <a href="video.html" class="nav__link link">Video</a>
+                </li>
+                <li class="nav__item">
+                    <a href="formulario.html" class="nav__link link">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="header-section">
+            <figure class="header-section__figure">
+                <div class="image-container">
+                    <img class="image-container__image" src="/Imagenes/comidas.png" alt="Comidas como papas y ensalada">
+                    <h2 class="image-container__h2">¡Deliciosas opciones para ti! <br> Tu antojo, nuestra pasión.</h2>
+                </div>               
+            </figure>
+        </section>
+    </header>
+    <main class="main">
+        <section class="table">
+            <section class="table__header">
+              <h2 class="table__title">Catalogo comidas</h2>
+            </section>
+            <section class="table__body">
+              <table class="table__content">
+                <thead class="table__head">
+                  <tr class="table__row">
+                    <th class="table__column">Nombre del Platillo</th>
+                    <th class="table__column">Ingredientes</th>
+                    <th class="table__column">Precio</th>
+                    <th class="table__column">Descripción</th>
+                  </tr>
+                </thead>
+                <tbody class="table__body-content">
+                  <tr class="table__row">
+                    <td class="table__data table__data--flex">
+                     <div><img class="table__image" src="./Imagenes/carneRes.png" alt=""> </div> 
+                     <p>Carne con Salsa</p>
+                      
+                    </td>
+                    <td class="table__data">Carne de res, salsa especial, brocoli, espárragos, papas asadas, camarón</td>
+                    <td class="table__data">$25.000</td>
+                    <td class="table__data">Un delicioso carne cocido a la perfección, acompañado de vegetales grillados y una salsa especial.</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__data table__data--flex">
+                     <div><img class="table__image" src="Imagenes/carneManzanas.png" alt=""> </div>     
+                      <p>Carne con Manzanas</p>
+                    </td>
+                    <td class="table__data">Carne de res, manzanas salteadas, brocoli, papas asadas</td>
+                    <td class="table__data">$27.000</td>
+                    <td class="table__data">Un exquisito carne a la parrilla, cubierto con manzanas salteadas, acompañado de brocoli y papas asadas.</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__data table__data--flex">
+                      <div><img class="table__image" src="/Imagenes/pancake.png" alt=""> </div>
+                      <p>Pancakes con Plátano</p>
+                    </td>
+                    <td class="table__data">Harina, huevos, leche, plátanos, jarabe, menta</td>
+                    <td class="table__data">$12.000</td>
+                    <td class="table__data">Deliciosos pancakes esponjosos, cubiertos con rodajas de plátano y jarabe, adornados con una ramita de menta.</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__data table__data--flex">
+                      <div><img class="table__image" src="/Imagenes/sopa.png" alt=""> </div>
+                      <p>Sopa Cremosa con Pollo</p>
+                    </td>
+                    <td class="table__data">Pollo, crema, chiles rojos, hierbas</td>
+                    <td class="table__data">$18.000</td>
+                    <td class="table__data">Una sopa cremosa con trozos de pollo, adornada con chiles rojos y hierbas frescas.</td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__data table__data--flex">
+                      <div><img class="table__image" src="/Imagenes/sandwich.png" alt=""> </div>
+                      <p>Sándwich de Pollo Frito</p>
+                    </td>
+                    <td class="table__data">Pollo frito, repollo morado, cebolla roja en escabeche, pan de sésamo</td>
+                    <td class="table__data">$20.000</td>
+                    <td class="table__data">Un sándwich con pollo frito crujiente, repollo morado, y cebolla roja, servido en un pan.</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </section>
+          </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__section footer__section--contact">
+                <h2 class="footer__title">Contáctanos</h2>
+                <ul class="footer__list list">
+                    <li class="footer__item">Tel: (123) 456-7890</li>
+                    <li class="footer__item">Email: CarritoCompra@gmail.com</li>
+                    <li class="footer__item">Dirección: Calle 40 A Sur #44-34</li>
+                </ul>
+            </section>
+    
+            <section class="footer__section footer__section--social">
+                <h2 class="footer__title">Síguenos</h2>
+                <ul class="footer__list footer__list--flex list">
+                    <li class="footer__item">
+                        <a href="#"  class="link facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#"  class="link twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="footer__section footer__section--legal">
+                <p class="footer__text">&copy; 2024 CarritoCompra.</p>
+                <a href="#" class="footer__link link">Política de privacidad</a>
+            </section>
+        </div>
+        
+    </footer>
+
+
+    <script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+</body>
+
+</html>

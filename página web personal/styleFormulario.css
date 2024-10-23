@@ -1,0 +1,90 @@
+main{
+    height: 69.4rem;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(253, 237, 202, 0) 0%, rgba(255, 207, 103, 0.13) 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+.form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60rem;
+    box-shadow: 0 0.1rem 3rem 0 #2021242a;
+    padding-top: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 1.6rem;
+    position: relative;
+
+}
+
+.form__title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff8800bc, #ffae00d6);;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.form__input, .form__select{
+    width: 29.3rem;
+    height: 2.9rem;
+    background-color: #F5F5F5;
+    border-radius: 0.8rem;
+    border:none;
+    outline: none;
+    padding-left: 0.8rem;
+    color: #757575;
+    
+}
+.form__label{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #757575;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.form__button{
+    cursor: pointer;
+    border: none;
+    width: 9.6rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 1.4rem;
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+    box-shadow: 0px 0.5rem 1rem rgba(255, 174, 0, 0.26), 0px 2rem 4rem rgba(255, 174, 0, 0.29);
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.form__button:hover{
+    transform: scale(1.1);
+}
+
+.form__textarea {
+    width: 60%;
+    height: 15rem; 
+    resize: none; 
+    padding: 1rem; 
+    box-sizing: border-box; 
+    margin-bottom: 1.4rem;
+}

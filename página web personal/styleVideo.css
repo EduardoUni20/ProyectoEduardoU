@@ -1,0 +1,24 @@
+
+main{
+    height: 69.4rem;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(253, 237, 202, 0) 0%, rgba(255, 207, 103, 0.13) 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+.video-container{
+margin-top: 2.5rem;
+}
+
+.vide-container__title{
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #f17228;
+}
+
+.video-container iframe{
+    width: 85rem;
+    height: 40rem;
+    margin-top: 2.5rem;
+}
